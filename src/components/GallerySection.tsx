@@ -14,42 +14,42 @@ const GallerySection: React.FC = () => {
   const galleryItems = [
     {
       id: 1,
-      image: '/images/bikes/tcc-darkfire-bagger.png',
+      image: 'images/bikes/tcc-darkfire-bagger.png',
       title: 'Dark Fire King',
       category: ['custom', 'engine', 'fabrication', 'paint'],
       description: 'Custom Harley Davidson Road King with a dark fire theme'
     },
     {
       id: 2,
-      image: '/images/bikes/tcc-bagger-white-5.jpg',
+      image: 'images/bikes/tcc-bagger-white-5.jpg',
       title: 'White & Black Bagger',
       category: ['custom', 'engine', 'fabrication'],
       description: 'Complete ground-up custom build of a Harley Road Glide'
     },
     {
       id: 3,
-      image: '/images/bikes/tcc-orange-bagger.png',
+      image: 'images/bikes/tcc-orange-bagger.png',
       title: 'Orange Crush',
       category: ['custom', 'paint'],
       description: 'Precision paint work on a custom Harley Davidson Bagger'
     },
     {
       id: 4,
-      image: '/images/bikes/tcc-bobber.png',
+      image: 'images/bikes/tcc-bobber.png',
       title: 'Old School Bobber',
       category: 'engine',
       description: 'Classic bobber style with modern performance upgrades'
     },
     {
       id: 5,
-      image: '/images/bikes/tcc-mint-deluxe.png',
+      image: 'images/bikes/tcc-mint-deluxe.png',
       title: 'Softail Deluxe Mint',
       category: ['custom', 'fabrication', 'paint'],
       description: 'Custom Softail Deluxe with mint green paint and blacked-out accents'
     },
     {
       id: 6,
-      image: '/images/bikes/tcc-performance.png',
+      image: 'images/bikes/tcc-performance.png',
       title: 'V-Twin Performance Upgrade',
       category: 'engine',
       description: 'Fully rebuilt and blacked-out V-Twin powerplant'

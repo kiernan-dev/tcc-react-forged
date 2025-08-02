@@ -76,7 +76,7 @@ const ContactSection: React.FC = () => {
       {/* Background Elements */}
       <div className="absolute inset-0">
         <motion.div 
-          className="absolute inset-0 bg-[url('/images/dark-garage-atmosphere.png')] bg-cover bg-center opacity-10"
+          className="absolute inset-0 bg-[url('images/dark-garage-atmosphere.png')] bg-cover bg-center opacity-10"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 30, repeat: Infinity, repeatType: 'reverse' }}

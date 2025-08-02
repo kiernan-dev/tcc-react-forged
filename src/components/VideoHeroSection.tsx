@@ -74,9 +74,9 @@ const VideoHeroSection: React.FC = () => {
           }}
         >
           {/* Multiple video sources for maximum browser compatibility */}
-          <source src="/videos/video-webm.webm" type="video/webm" />
-          <source src="/videos/video-optimized.mp4" type="video/mp4" />
-          <source src="/videos/video-ogv.ogv" type="video/ogg" />
+          <source src="videos/video-webm.webm" type="video/webm" />
+          <source src="videos/video-optimized.mp4" type="video/mp4" />
+          <source src="videos/video-ogv.ogv" type="video/ogg" />
           
           {/* Fallback message */}
           Your browser does not support the video tag.
@@ -88,7 +88,7 @@ const VideoHeroSection: React.FC = () => {
         <div 
           className="fixed top-0 left-0 w-full h-full bg-cover bg-center z-0 transition-all duration-1000"
           style={{
-            backgroundImage: 'url(/images/hero-vid-stillframe.png)',
+            backgroundImage: 'url(images/hero-vid-stillframe.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
             width: '100vw',

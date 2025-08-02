@@ -12,28 +12,28 @@ const SimpleServicesSection: React.FC = () => {
 		{
 			title: "Custom V-Twin Builds",
 			description: "From ground-up custom builds to complete engine rebuilds, we craft V-Twin masterpieces that reflect your vision and riding style.",
-			image: "/images/concept-bike-lift.jpg",
+			image: "images/concept-bike-lift.jpg",
 			features: ["Engine Rebuilds", "Custom Frames", "Performance Tuning", "Electronic Systems"],
 			icon: "🔧"
 		},
 		{
 			title: "Professional Fabrication",
 			description: "Expert metalwork and welding services for custom parts, frames, and modifications. We bring decades of fabrication expertise to every project.",
-			image: "/images/tcc-fabricator.png",
+			image: "images/tcc-fabricator.png",
 			features: ["Custom Parts", "Frame Modifications", "Exhaust Systems", "Mounting Brackets"],
 			icon: "⚡"
 		},
 		{
 			title: "Engine Performance",
 			description: "Maximize your V-Twin's potential with our performance upgrades and precision tuning. We specialize in extracting every ounce of power.",
-			image: "/images/v-twin-engine-2.jpg",
+			image: "images/v-twin-engine-2.jpg",
 			features: ["Performance Cams", "High-Flow Intake", "Exhaust Upgrades", "ECU Tuning"],
 			icon: "✨"
 		},
 		{
 			title: "Restoration Services",
 			description: "Bring classic motorcycles back to life with our comprehensive restoration services. We preserve history while upgrading performance.",
-			image: "/images/bikes/tcc-cust-65-panhead.jpg",
+			image: "images/bikes/tcc-cust-65-panhead.jpg",
 			features: ["Complete Restoration", "Paint & Chrome", "Engine Rebuild", "Electrical Systems"],
 			icon: "🚀"
 		}

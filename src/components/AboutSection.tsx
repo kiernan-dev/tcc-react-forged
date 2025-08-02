@@ -45,7 +45,7 @@ const AboutSection: React.FC = () => {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60"></div>
         <motion.div 
-          className="absolute inset-0 bg-[url('/images/bikes/tcc-bagger-white-2.jpg')] bg-cover bg-center opacity-40"
+          className="absolute inset-0 bg-[url('images/bikes/tcc-bagger-white-2.jpg')] bg-cover bg-center opacity-40"
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, repeat: Infinity, repeatType: 'reverse' }}
@@ -124,7 +124,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="relative overflow-hidden rounded-lg">
               <img 
-                src="/images/tcc-concept-signage-vertical.png" 
+                src="images/tcc-concept-signage-vertical.png" 
                 alt="Turkey Creek Cycles Workshop" 
                 className="w-full h-auto rounded-lg shadow-2xl opacity-80 transition-transform duration-500 hover:scale-105"
               />

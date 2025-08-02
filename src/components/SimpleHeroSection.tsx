@@ -19,7 +19,7 @@ const SimpleHeroSection: React.FC = () => {
       <div 
         className="absolute top-0 left-0 w-full h-full bg-cover bg-center z-0 transform"
         style={{
-          backgroundImage: 'url(/images/workshop_hero.png)',
+          backgroundImage: 'url(images/workshop_hero.png)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           width: '100vw',
