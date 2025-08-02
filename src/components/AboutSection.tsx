@@ -45,7 +45,8 @@ const AboutSection: React.FC = () => {
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-r from-black via-transparent to-black opacity-60"></div>
         <motion.div 
-          className="absolute inset-0 bg-[url('images/bikes/tcc-bagger-white-2.jpg')] bg-cover bg-center opacity-40"
+          className="absolute inset-0 bg-cover bg-center opacity-40"
+          style={{ backgroundImage: 'url(images/bikes/tcc-bagger-white-2.jpg)' }}
           initial={{ scale: 1.1 }}
           animate={{ scale: 1 }}
           transition={{ duration: 10, repeat: Infinity, repeatType: 'reverse' }}
